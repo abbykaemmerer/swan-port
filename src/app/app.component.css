@@ -1,5 +1,12 @@
 
-
+/* COLORS 
+#fb222c
+#fec876
+#f25900
+#95bfc0
+#015757
+#f3e9dc
+*/
 .rectangle_wrapper {
 height: 50vh;
 display: flex;
@@ -7,23 +14,52 @@ justify-content: center;
 }
 .rectangle1,
 .rectangle2,
-.rectangle3 {
+.rectangle3,
+.rectangle4,
+.rectangle5 {
 position: absolute;
 width: 100%;
 height: 100%;
-border-radius: 10px;
+border-radius: 5px;
+max-height: -webkit-fill-available;
+text-align: center;
 }
 .rectangle1 {
-background: #6b9080;
+background: #f3e9dc;
 border-radius: 0;
 }
 .rectangle2 {
-top: 30px;
-background: #eaf4f4;
-width: 70%;
+bottom: 0px;
+background: #fec876;
+width: 80%;
+height: 80%
 }
+.rectangle2:hover > .rectangle1 {
+    background: #fec876;
+}
+
 .rectangle3 {
-top: 40px;
-background: #cce3de;
+bottom: 0px;
+background: #f25900;
+width: 70%;
+height: 70%
+
+}
+.rectangle4 {
+bottom: 0px;
+background: #95bfc0;
+width: 60%;
+height: 60%
+
+}
+.rectangle5 {
+bottom: 0px;
+background: #015757;
 width: 50%;
+height: 50%
+
+}
+
+.rectangle1 img {
+width: 200px;
 }

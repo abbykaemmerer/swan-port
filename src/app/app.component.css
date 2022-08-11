@@ -6,11 +6,29 @@
 #95bfc0
 #015757
 #f3e9dc
+
+#fb222c
+#fec876
+#054f9d
+#f09e19
+#017e40
+#191517
+#e2d7bd
+
+#f3e9dc
+#faa007
+#e29d99
+#0285d0
+#c8d13c
+#191517
+
 */
 .rectangle_wrapper {
 height: 50vh;
 display: flex;
 justify-content: center;
+color: #f3e9dc;
+
 }
 .rectangle1,
 .rectangle2,
@@ -23,43 +41,66 @@ height: 100%;
 border-radius: 5px;
 max-height: -webkit-fill-available;
 text-align: center;
+font-family: 'Silkscreen', cursive;
+padding: 35px 0;
+font-size: 1.5em;
 }
+
 .rectangle1 {
 background: #f3e9dc;
 border-radius: 0;
 }
 .rectangle2 {
 bottom: 0px;
-background: #fec876;
+background: #faa007;
 width: 80%;
-height: 80%
-}
-.rectangle2:hover > .rectangle1 {
-    background: #fec876;
+height: 90%
 }
 
 .rectangle3 {
 bottom: 0px;
-background: #f25900;
+background: #c8d13c;
 width: 70%;
-height: 70%
+height: 80%
 
 }
 .rectangle4 {
 bottom: 0px;
-background: #95bfc0;
+background: #f25900;
 width: 60%;
-height: 60%
+height: 70%
 
 }
 .rectangle5 {
 bottom: 0px;
-background: #015757;
+background: #191517;
 width: 50%;
-height: 50%
-
+height: 60%;
+border: 1px dashed #fff;
 }
 
-.rectangle1 img {
-width: 200px;
+.rectangle5 img {
+height: 100%;
 }
+
+/* width: 240px;
+height: 240px; */
+/* background-color: #fff;
+background-image: linear-gradient(
+    45deg,
+    #000 25%,
+    transparent 25%,
+    transparent 75%,
+    #000 75%,
+    #000
+    ),
+    linear-gradient(
+    -45deg,
+    #000 25%,
+    transparent 25%,
+    transparent 75%,
+    #000 75%,
+    #000
+    );
+background-size: 60px 60px;
+background-repeat: repeat; */

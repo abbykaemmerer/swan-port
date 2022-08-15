@@ -2,6 +2,9 @@
   <div id="rectangle1" class="rectangle1"></div>
   <div id="rectangle2" class="rectangle2 box">About</div>
   <div id="rectangle3" class="rectangle3 box">Projects</div>  
-  <div id="rectangle4" class="rectangle4 box">Inquires</div>
-  <div id="rectangle5" class="rectangle5 box"><img src="../assets/img/tdh.PNG"></div>
+  <div id="rectangle4" class="rectangle4 box"><a (click)="goToInquires()">Inquires</a></div>
+  <div id="rectangle5" class="rectangle5 box" *ngIf="!inquiresClicked"><img src="../assets/img/tdh.PNG"></div>
+  <div id="rectangle6" class="rectangle6 box" *ngIf="inquiresClicked">
+    <app-contact></app-contact>
+  </div>
 </div>

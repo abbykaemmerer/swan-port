@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
+  public inquiresClicked = false;
+
   ngOnInit(): void {
 
     // TODO:  more efficient way of changing background colors
@@ -45,6 +48,9 @@ export class AppComponent implements OnInit {
     } 
   }
 
+  goToInquires(){
+    this.inquiresClicked = true;
+  }
 }
 
 

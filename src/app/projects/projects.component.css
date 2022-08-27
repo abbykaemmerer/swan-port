@@ -1,0 +1,20 @@
+.container {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, grey 1px, transparent 1px),
+      linear-gradient(to bottom, grey 1px, transparent 1px);
+    height: 100vh;
+  }
+
+  .black {
+    background-color: black;
+    width: 100px;
+    height: 25px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+  }

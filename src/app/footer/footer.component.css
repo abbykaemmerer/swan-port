@@ -1,0 +1,46 @@
+footer {
+    background-color: #c9cc00;
+    padding: 2.5em 2.5em 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.5em;
+}
+
+.icon-row {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.icon-row img {
+    width: 30px;
+}
+
+.icon-row span {
+    margin: 0 10px;
+}
+
+.site-by {
+    text-align: right;
+    font-family: monospace;
+    color: #7d7f04;
+}
+
+.site-by a {
+    color: #7d7f04;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

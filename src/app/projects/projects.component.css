@@ -4,6 +4,9 @@
       linear-gradient(to right, grey 1px, transparent 1px),
       linear-gradient(to bottom, grey 1px, transparent 1px);
     height: 100%;
+    padding-bottom: 2.5em;
+        /* background: #f3e9dc; */
+
   }
 
   /* .title {

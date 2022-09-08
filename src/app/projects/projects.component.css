@@ -3,18 +3,22 @@
     background-image:
       linear-gradient(to right, grey 1px, transparent 1px),
       linear-gradient(to bottom, grey 1px, transparent 1px);
-    height: 100vh;
+    height: 100%;
   }
 
-  .black {
-    background-color: black;
-    width: 100px;
-    height: 25px;
+  .title {
+    font-family: 'Silkscreen', cursive;
+    font-size: 2.5em;
   }
+
+  img {
+    width: 400px;
+    margin: 0 25px;
+ }
 
   .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 50px;
+    justify-content: center;
+    margin: 50px 25px 0;
   }

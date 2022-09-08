@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Silkscreen', cursive;
+    font-size: 2.5em;
+  }
+
+  .nav {
+    text-align: right;
+    margin: 0 1.5em;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: #fd0c08;
+}

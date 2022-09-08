@@ -2,11 +2,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family: monospace;
+}
+
+.contact-container  h3 {
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 form {
     margin-top: 1.5em;
 }
+
 form div {
     display: flex;
     width: 100%;
@@ -14,8 +21,6 @@ form div {
 
 form label {
     width: 100%;
-    font-family: monospace;
-
 }
 
 form input {
@@ -56,14 +61,21 @@ form button {
     padding: 15px 30px;
     /* box-shadow: 6px 5px #c8d13c; */
     background: #f3e9dc;
-    color: #f462c3;
-    box-shadow: 0px 1px 2px 2px #f3e9dc87;
-    border: 1px solid #f3e9dc87;
+    color: #95bfc0;
+    box-shadow: inset 0px 0px 2px 2px #6e8a8b;
+    border: 1px solid #6e8a8b;
     text-transform: uppercase;
-    margin: 10px
+    margin: 20px 10px
 }
 
 form button span {
-    text-shadow: 1px 1px #f6301e;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+form button:hover {
+    cursor: pointer;
+    text-shadow: 20px 10px 0px #407374;
+    background: #95bfc0;
+    color: #f3e9dc;
+
 }

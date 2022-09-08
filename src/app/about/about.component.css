@@ -35,3 +35,9 @@
 .bio .desc {
     font-size: 1.25em;
 }
+
+.resume a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -45,7 +47,7 @@ export class AppComponent implements OnInit {
       rectangle5?.addEventListener("mouseover", function(event) {
         rectangle1.style.backgroundColor = '#fec876';
       })
-    } 
+    }
   }
 
   goToInquires(){

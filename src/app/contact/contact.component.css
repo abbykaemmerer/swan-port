@@ -44,7 +44,6 @@ form input::placeholder, form textarea::placeholder {
     color: #f3e9dc;
     font-size: 18px;
     font-family: monospace;
-
 }
 
 form textarea {
@@ -65,7 +64,9 @@ form button {
     box-shadow: inset 0px 0px 2px 2px #6e8a8b;
     border: 1px solid #6e8a8b;
     text-transform: uppercase;
-    margin: 20px 10px
+    margin: 20px 10px;
+    font-family: monospace;
+
 }
 
 form button span {

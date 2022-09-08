@@ -1,3 +1,4 @@
+
 .rectangle_wrapper {
     height: 50vh;
     display: flex;
@@ -5,6 +6,11 @@
     color: #f3e9dc;
     
     }
+
+.rectangle_wrapper a {
+    color: #f3e9dc;
+}
+
     .rectangle1,
     .rectangle2,
     .rectangle3,
